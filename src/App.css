@@ -1,424 +1,3 @@
-/* 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f7f3ea;
-  color: #26352b;
-}
-
-.app {
-  min-height: 100vh;
-}
-
-.header {
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8%;
-  background: white;
-  border-bottom: 1px solid #e5dfd2;
-}
-
-.header h2 {
-  font-size: 28px;
-  color: #315c43;
-}
-
-nav {
-  display: flex;
-  gap: 30px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #35443a;
-  font-size: 16px;
-}
-
-nav a:hover {
-  color: #a47c32;
-}
-
-.hero-section {
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  padding: 70px 10%;
-  background: #e9efe7;
-}
-
-.hero-text {
-  max-width: 700px;
-}
-
-.small-text {
-  color: #a47c32;
-  font-size: 17px;
-  margin-bottom: 20px;
-}
-
-.hero-text h1 {
-  font-size: 60px;
-  line-height: 1.1;
-  margin-bottom: 25px;
-  color: #294936;
-}
-
-.description {
-  max-width: 600px;
-  font-size: 19px;
-  line-height: 1.7;
-  color: #59665d;
-  margin-bottom: 30px;
-}
-
-button {
-  padding: 15px 30px;
-  border: none;
-  border-radius: 8px;
-  background: #315c43;
-  color: white;
-  font-size: 17px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #244632;
-}
-
-.section {
-  padding: 80px 10%;
-  text-align: center;
-}
-
-.section h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #315c43;
-}
-
-.section p {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #59665d;
-} */
-/* 
-.hero-image {
-  margin-left: auto;
-  width: 380px;
-}
-.hero-image {
-  width: 280px;
-  margin: 40px auto 0;
-}Ф
-
-.hero-image img {
-  width: 100%;
-  display: block;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f7f3ea;
-  color: #26352b;
-}
-
-.app {
-  min-height: 100vh;
-}
-
-/* =========================
-   HEADER
-========================= */
-/* 
-.header {
-  min-height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8%;
-  background: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid #e5dfd2;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.header h2 {
-  font-size: 28px;
-  color: #315c43;
-}
-
-nav {
-  display: flex;
-  gap: 28px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #35443a;
-  font-size: 15px;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #a47c32;
-}
-
-
-/* =========================
-   HERO
-========================= */
-
-/* .hero-section {
-  min-height: 620px;
-  display: flex;
-  align-items: center;
-  padding: 80px 10%;
-  background: linear-gradient(
-    135deg,
-    #e9efe7,
-    #f7f3ea
-  );
-}
-
-.hero-text {
-  max-width: 760px;
-}
-
-.small-text {
-  color: #a47c32;
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.hero-text h1 {
-  font-size: 64px;
-  line-height: 1.08;
-  margin-bottom: 28px;
-  color: #294936;
-}
-
-.description {
-  max-width: 650px;
-  font-size: 19px;
-  line-height: 1.7;
-  color: #59665d;
-  margin-bottom: 35px;
-}
-
-
-/* =========================
-   WHATSAPP BUTTON
-========================= */
-/* 
-.whatsapp-button {
-  display: inline-block;
-  padding: 16px 28px;
-  border-radius: 10px;
-  background: #315c43;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 600;
-  transition: 0.3s;
-  box-shadow: 0 8px 20px rgba(49, 92, 67, 0.18);
-}
-
-.whatsapp-button:hover {
-  background: #244632;
-  transform: translateY(-3px);
-  box-shadow: 0 12px 25px rgba(49, 92, 67, 0.25);
-}
-
-
-/* =========================
-   SECTIONS
-========================= */
-
-/* .section {
-  padding: 90px 10%;
-  text-align: center;
-}
-
-.section:nth-child(even) {
-  background: white;
-}
-
-.section h2 {
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #315c43;
-}
-
-.section > p {
-  max-width: 700px;
-  margin: 0 auto 30px;
-  font-size: 19px;
-  line-height: 1.7;
-  color: #59665d;
-} */
-
-
-/* =========================
-   CARDS
-========================= */
-
-/* .cards {
-  max-width: 1000px;
-  margin: 45px auto 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.card {
-  background: #f7f3ea;
-  padding: 35px 25px;
-  border-radius: 16px;
-  border: 1px solid #e5dfd2;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
-}
-
-.card h3 {
-  font-size: 21px;
-  margin-bottom: 15px;
-  color: #315c43;
-}
-
-.card p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #68736c;
-} */
-
-
-/* =========================
-   FOOTER
-========================= */
-
-.footer {
-  padding: 30px 20px;
-  text-align: center;
-  background: #294936;
-  color: white;
-}
-
-.footer p {
-  font-size: 14px;
-}
-
-
-/* =========================
-   PHONE / MOBILE
-========================= */
-
-/* @media (max-width: 768px) {
-
-  .header {
-    min-height: auto;
-    padding: 18px 20px;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .header h2 {
-    font-size: 26px;
-  }
-
-  nav {
-    width: 100%;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
-
-  nav a {
-    font-size: 13px;
-  }
-
-  .hero-section {
-    min-height: 650px;
-    padding: 70px 25px;
-    text-align: center;
-  }
-
-  .hero-text {
-    width: 100%;
-  }
-
-  .small-text {
-    font-size: 15px;
-  }
-
-  .hero-text h1 {
-    font-size: 42px;
-    line-height: 1.12;
-  }
-
-  .description {
-    font-size: 17px;
-    line-height: 1.6;
-  }
-
-  .whatsapp-button {
-    width: 100%;
-    max-width: 350px;
-    padding: 17px 20px;
-    font-size: 16px;
-  }
-
-  .section {
-    padding: 70px 22px;
-  }
-
-  .section h2 {
-    font-size: 32px;
-  }
-
-  .section > p {
-    font-size: 17px;
-  }
-
-  .cards {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    margin-top: 30px;
-  }
-
-  .card {
-    padding: 28px 20px;
-  }
-
-} */ */ */ */ */
-
-/* =========================
-   НЕГІЗГІ БАПТАУЛАР
-========================= */
 
 * {
   margin: 0;
@@ -442,9 +21,7 @@ body {
 }
 
 
-/* =========================
-   HEADER
-========================= */
+
 
 .header {
   min-height: 75px;
@@ -470,7 +47,7 @@ body {
 }
 
 
-/* MENU */
+
 
 nav {
   display: flex;
@@ -492,9 +69,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO / БАСТЫ БЕТ
-========================= */
+
 
 .hero-section {
   min-height: 620px;
@@ -547,9 +122,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   WHATSAPP КНОПКА
-========================= */
+
 
 .whatsapp-button {
   display: inline-block;
@@ -582,9 +155,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   АБАЙ СУРЕТІ
-========================= */
+
 
 .hero-image {
   width: 350px;
@@ -608,9 +179,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   БӨЛІМДЕР
-========================= */
 
 .section {
   padding: 90px 10%;
@@ -642,9 +210,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   ҚАРЖЫЛЫҚ САУАТТЫЛЫҚ КАРТОЧКАЛАРЫ
-========================= */
+
 
 .cards {
   max-width: 1000px;
@@ -693,9 +259,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+
 
 .footer {
   padding: 30px 20px;
@@ -712,13 +276,11 @@ nav a:hover {
 }
 
 
-/* ==================================================
-   📱 ТЕЛЕФОНҒА АРНАЛҒАН БАПТАУ
-================================================== */
+
 
 @media (max-width: 768px) {
 
-  /* HEADER */
+
 
   .header {
     min-height: auto;
@@ -735,7 +297,7 @@ nav a:hover {
   }
 
 
-  /* MENU */
+ 
 
   nav {
     width: 100%;
@@ -754,7 +316,7 @@ nav a:hover {
   }
 
 
-  /* HERO */
+
 
   .hero-section {
     min-height: auto;
@@ -795,7 +357,7 @@ nav a:hover {
   }
 
 
-  /* WHATSAPP BUTTON */
+
 
   .whatsapp-button {
     width: 100%;
@@ -808,7 +370,7 @@ nav a:hover {
   }
 
 
-  /* ABAY IMAGE */
+  
 
   .hero-image {
     width: 100%;
@@ -825,7 +387,7 @@ nav a:hover {
   }
 
 
-  /* SECTIONS */
+
 
   .section {
     padding: 65px 22px;
@@ -844,7 +406,7 @@ nav a:hover {
   }
 
 
-  /* CARDS */
+
 
   .cards {
     grid-template-columns: 1fr;
@@ -869,7 +431,6 @@ nav a:hover {
   }
 
 
-  /* FOOTER */
 
   .footer {
     padding: 25px 15px;
@@ -882,10 +443,6 @@ nav a:hover {
   }
 }
 
-
-/* ==================================================
-   📱 КІШКЕНЕ ТЕЛЕФОН — 480px
-================================================== */
 
 @media (max-width: 480px) {
 
